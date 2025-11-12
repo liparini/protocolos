@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protocolos Institucionais - Escola Estadual MG</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    .search-container {
+      text-align: center;
+      margin: 30px auto;
+    }
+    .search-container input {
+      width: 60%;
+      padding: 10px 15px;
+      border-radius: 25px;
+      border: 1px solid #0073e6;
+      font-size: 1rem;
+      outline: none;
+      transition: 0.3s;
+    }
+    .search-container input:focus {
+      box-shadow: 0 0 8px rgba(0,115,230,0.5);
+      border-color: #003366;
+    }
+    main {
+      max-width: 950px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #003366;
+      border-bottom: 3px solid #0073e6;
+      padding-bottom: 10px;
+    }
+    ol {
+      line-height: 1.7;
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight {
+      background-color: #eef5ff;
+      border-left: 4px solid #0073e6;
+      padding: 10px 15px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      background-color: #003366;
+      color: #fff;
+      padding: 20px 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Protocolos Institucionais da Escola Estadual - Minas Gerais</h1>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Pesquisar protocolo..." onkeyup="searchProtocolos()">
+  </div>
+
+  <main id="protocolosContainer">
+    <section>
+      <h2>1. Protocolo em Caso de Brigas e Conflitos</h2>
+      <ol>
+        <li>Intervenção imediata e pacífica do professor ou servidor responsável, priorizando a integridade física dos envolvidos.</li>
+        <li>Encaminhar os alunos à sala da direção ou coordenação.</li>
+        <li>Realizar escuta acolhedora individual, sem julgamentos.</li>
+        <li>Registrar o ocorrido no livro de ocorrências e no sistema oficial.</li>
+        <li>Acionar o Serviço de Orientação Educacional (SOE) e, se necessário, o Conselho Tutelar.</li>
+        <li>Promover ações restaurativas e acompanhamento contínuo.</li>
+      </ol>
+      <div class="highlight">Base legal: Programa de Convivência Democrática e Resolução SEE nº 4.297/2020.</div>
+    </section>
+
+    <section>
+      <h2>2. Protocolo de Acolhimento ao Professor</h2>
+      <ol>
+        <li>Apresentação formal do novo docente à equipe pedagógica e administrativa.</li>
+        <li>Entrega do regimento escolar, plano anual e orientações da SEE/MG.</li>
+        <li>Agendamento de momento de escuta com a direção e equipe pedagógica.</li>
+        <li>Oferta de apoio psicológico ou pedagógico, se necessário.</li>
+        <li>Acompanhamento nas primeiras semanas e feedback contínuo.</li>
+      </ol>
+      <div class="highlight">Base legal: Política de Valorização do Servidor e Resolução SEE nº 4.297/2020.</div>
+    </section>
+
+    <section>
+      <h2>3. Protocolo para Implantação de Eventos Escolares</h2>
+      <ol>
+        <li>Apresentação da proposta de evento à direção e colegiado escolar.</li>
+        <li>Preenchimento do formulário de solicitação e autorização do evento.</li>
+        <li>Verificação de segurança, logística e recursos disponíveis.</li>
+        <li>Divulgação interna e externa conforme as orientações da SEE/MG.</li>
+        <li>Execução do evento com equipe responsável e registro fotográfico.</li>
+        <li>Avaliação final e registro no relatório de atividades da escola.</li>
+      </ol>
+      <div class="highlight">Base legal: Regulamento Interno das Escolas Estaduais e orientações da SEE/MG.</div>
+    </section>
+
+    <section>
+      <h2>4. Protocolo de Atendimento aos Pais e Responsáveis</h2>
+      <ol>
+        <li>Manter agenda organizada de horários de atendimento.</li>
+        <li>Garantir espaço reservado para conversas e escuta acolhedora.</li>
+        <li>Registrar atendimentos relevantes e encaminhamentos.</li>
+        <li>Encaminhar casos específicos à equipe pedagógica ou SOE.</li>
+        <li>Dar retorno aos responsáveis sobre o andamento das demandas.</li>
+      </ol>
+      <div class="highlight">Base legal: Estatuto da Criança e do Adolescente (Lei nº 8.069/1990) e normativas da SEE/MG.</div>
+    </section>
+
+    <section>
+      <h2>5. Protocolo de Comunicação Interna e Planejamento Anual</h2>
+      <ol>
+        <li>Elaboração do calendário escolar com todas as atividades do ano letivo.</li>
+        <li>Compartilhamento do calendário com toda a equipe por e-mail e mural institucional.</li>
+        <li>Agendamento mensal de reuniões de acompanhamento pedagógico.</li>
+        <li>Registro das atividades em ata e atualização contínua do cronograma.</li>
+        <li>Comunicação oficial de alterações via ofício interno e canal digital.</li>
+        <li>Arquivo digital das comunicações para fins de transparência e auditoria.</li>
+      </ol>
+      <div class="highlight">Base legal: Resolução SEE nº 4.297/2020 e orientações de gestão democrática da SEE/MG.</div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Escola Estadual - Minas Gerais | Documentos baseados em legislações da SEE/MG e diretrizes institucionais.
+  </footer>
+
+  <script>
+    function searchProtocolos() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const sections = document.querySelectorAll('main section');
+
+      sections.forEach(sec => {
+        const text = sec.innerText.toLowerCase();
+        sec.style.display = text.includes(input) ? 'block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
